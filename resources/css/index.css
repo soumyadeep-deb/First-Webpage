@@ -1,0 +1,97 @@
+/* Universal styles*/
+body{
+    background-color: gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Nav Bar*/
+.nav{
+    position: fixed;
+    background-color: white;
+    width: 98%;
+    top: 0;
+    text-align: left;
+    
+}
+
+.nav a{
+    color: rgb(28, 0, 48);
+}
+
+.nav li{
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.banner{
+    background-color:white;
+    color: rgb(237, 242, 245);
+    margin-top: 85px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    padding: 50px;
+    color: rgb(78, 0, 146);
+    
+}
+/* Use .class_name for selecting classes
+ Use # id_name for selecting id's
+ Classes are used to select a class of tags.
+ ID is used for selecting a specific tag only.
+*/
+
+.banner h1{
+    color: rgb(78, 0, 146);
+}
+
+#img1{
+    height: 500px;
+    width: 900px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.bold{
+    font-weight: 600;
+    font-size: large;
+}
+
+.NameTitan{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
+    padding: 20px;
+    padding-left: 40px;
+    
+}
+
+#TName{
+    font-size: 30px;
+    color: rgb(78, 0, 146);
+    filter: drop-shadow(1px 1px 0px black);
+}
+
+.ContactUs{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.ContactUs h2{
+    font-size: 30px;
+    color: rgb(78, 0, 146);
+    filter: drop-shadow(1px 1px 0px black);
+    padding-left: 30px;
+}
+
+.ContactUs li{
+    display: inline-block;
+    padding: 15px 35px;
+    padding-left: 0px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

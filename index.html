@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titans</title>
+    <link rel="stylesheet" href=".\resources\css\index.css"
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="nav">
+        <li><a href="" class="bold">Home</a></li>
+        <li><a href="" class="bold">About</a></li>
+        <li><a href="" class="bold">All Titans</a></li>
+    </nav>
+
+    <!--Banner section-->
+    <div class="banner">
+        <h1>Tatakae Tatakae</h1>
+        <!--Use .\ for relative path, relativ to index.html-->
+        <div id="imgborder">
+            <img id="img1" src=".\resources\images\attack titan.png">
+        </div>
+        <p class="bold" id="textToChange">My Titans roar!</p>
+        <button onclick="textcolor('blue')">Blue</button>
+        <button onclick="textcolor('red')">Red</button>
+    </div>
+
+    <!--Div 2 section-->
+    <div class="NameTitan">
+        <h2 id="TName"> Name your Titan </h2>
+        <p id="dispT">Name your titan and the titan shall be summoned</p>
+        <form action="">
+            <input type="text">
+            <!--The below input is a submit button-->
+            <!--It has a special connection to the text box-->
+            <input type="submit" value="Submit">
+        </form>
+    
+        <ul>
+            <li><span>Founding Titan</span></li>
+            <li><span>Attack Titan</span></li>
+            <li><span>War Hammer Titan</span></li>
+            <li><span>Female Titan</span></li>
+            <li><span>Colossal Titan</span></li>
+        </ul>
+    </div>
+
+    <!--Div 3-->
+    <div class="ContactUs">
+        <h2>Contact Us</h2>
+        <ul>
+            <li><strong>Email:</strong> johndoe@gmail.com</li>
+            <li><strong>Office:</strong> +1 56261</li>
+            <li><strong>Address:</strong> 28/1 Square Avenue, NY: 200024</li>
+        </ul>
+    </div>
+
+    <!--VV-Important-->
+    <!--Always keep your js script at the bottom of the body tag-->
+    <script src=".\index.js">
+    </script>
+
+</body>
+</html>
